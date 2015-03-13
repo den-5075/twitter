@@ -1,0 +1,11 @@
+<div class = "container" >
+
+
+<br>
+<% @tweets.each_with_index do |x,y|  %>
+<%= "#{y+1}. #{x.text}" %>
+
+<br>
+<%end %>
+<br>
+</div>
